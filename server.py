@@ -3,7 +3,6 @@ import easyocr
 import numpy as np
 import torch
 from flask import Flask, request, jsonify
-from PIL import Image
 
 app = Flask(__name__)
 
